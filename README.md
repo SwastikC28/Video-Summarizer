@@ -72,14 +72,4 @@ More details about using our API is written below:
   }
   ```
 
-### More information about the front-end
-The image below shows the front-end of the web version of the summarizer.
 
-![](/readme_images/sample_browser_ui.jpg)
-
-As before mentioned, this back-end repository also hosts the web summmarizer. This basic HTML+CSS+JS webpage takes input which is required for making API requests. The webpage is self explanatory. Once you click on summarize button, the JS script makes an API request to the back-end. Once the request is completed, the received response is displayed to the user in the formatted mannner.
-
-#### Feel free to improve this back-end, add comments and ask any queries if you have any.
-
-##### The back-end uses an undocumented part of the YouTube API, which is called by the YouTube web-client. So there is no guarantee that it would stop working tomorrow, if they change how things work. In case that happens, I will do my best to make things work again as soon as possible if that happens. So if it stops working, let me know!
-##### This is not an official tool from YouTube. I have built this package for my final year project. 
